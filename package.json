@@ -2,7 +2,7 @@
   "name": "template_project_tests_api_js",
   "version": "1.0.0",
   "description": "Template project to test API using javascript",
-  "repository": "FILL",
+  "repository": "https://github.com/brunonf15/template_project_tests_api_js",
   "main": "api.js",
   "scripts": {
     "test": "mocha --opts mocha.opts --recursive specs/**/*.spec.js"
