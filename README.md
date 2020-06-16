@@ -2,19 +2,17 @@
 
 It is a template project to test API using javascript.
 
-To use type
+To install the packages use type
 
 ```
 npm i
 ```
 
-to install the packages and
+To run the tests
 
 ```
 npm test
 ```
-
-to run the tests
 
 See tutorials on:
 
