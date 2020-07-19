@@ -28,4 +28,6 @@ or
 
 Send a message to https://www.linkedin.com/in/brunonascimento15/
 
+Note: I attached a package-lock file, if you want to use, extract, and type " npm i " to install and use them.
+
 
