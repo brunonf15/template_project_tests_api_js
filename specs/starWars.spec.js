@@ -21,4 +21,9 @@ describe('Star Wars API - People Tests:', () => {
     assert.equal(response.status, 404);
   });
 
+  it('Test Revenge of the Sith is the third movie', async () => {
+    const response = await delivery.getFilm('6');
+    assert.equal(response.body.title, 'Revenge of the Sith');
+  });
+
 });

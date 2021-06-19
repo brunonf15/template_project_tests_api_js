@@ -26,6 +26,18 @@ class starWarsPeople extends Api {
 		}
 		return response;
 	};
+
+	async getFilm(filmId) {
+		let response = null;
+		try {
+			response = await super.request
+				.get(`${setting.URL_BASE}/films/${filmId}/?format=json`)
+				.set('Content-Type', 'application/json')
+		} catch (err) {
+			return err;
+		}
+		return response;
+	};
 };
 
 export default new starWarsPeople();
